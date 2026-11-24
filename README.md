@@ -24,7 +24,8 @@ A Forward Deployed Engineer is often the person who has to explain this to a sec
 You need Python 3.10+ (3.13 is fine). No account, no cloud key, no internet after the packages are installed.
 
 ```bash
-cd 04-secure-rag
+git clone https://github.com/DanMcB1/ai-secure-rag.git
+cd ai-secure-rag
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -141,11 +142,12 @@ See `.env.example`.
 ## Project layout
 
 ```
-04-secure-rag/
+ai-secure-rag/
   app.py                 Streamlit UI
   run.sh                 One-command launcher
   requirements.txt       streamlit, numpy, scikit-learn
   README.md
+  LICENSE                MIT, Copyright (c) 2026 Daniel McBrearty
   DEMO_SCRIPT.md         ~1-minute talk track for interviews
   securerag/             ACL, corpus, index, extractive answers, audit, optional LLM
   examples/              Saved side-by-side comparison
@@ -158,3 +160,7 @@ See `.env.example`.
 If you only have a minute, start the app on the default side-by-side view (service advisor vs CFO, Honda GM pay plan), then flip **Naive RAG** and ask the same question again. The talk track is in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
 Daniel's background is car sales, F&I, and auto software sales (Dealr.cloud), not professional software engineering. This project is meant to show he can talk about **who is allowed to see what** the way a dealer group already thinks about deal jackets and pay plans — and that he is honest about what a demo does not prove.
+
+## License
+
+This project is released under the [MIT License](LICENSE). Copyright (c) 2026 Daniel McBrearty.
