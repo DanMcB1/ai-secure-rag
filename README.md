@@ -1,5 +1,7 @@
 # Row-Level Secure RAG Engine
 
+**Portfolio project #4 of 12** from [@suraj_sharma14's FDE project list](https://x.com/suraj_sharma14/status/2125197762752806998).
+
 A small, offline demo of **document Q&A with access control at retrieval**. Employees of a fictional dealer group can ask questions over a shared corpus. Each person only gets answers from the files they are allowed to see — a service advisor at one store does not see another store's F&I numbers, or the general manager's pay plan.
 
 This is a **portfolio demo**, not production software. The documents are **sample data**. The app does not connect to a real DMS, SharePoint library, Google Drive, or identity provider, and it does not log anyone into a real company system.
